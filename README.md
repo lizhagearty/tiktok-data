@@ -20,6 +20,16 @@ When you're on that page, ex. https://www.tiktok.com/@lizhagearty, right click a
 
 Repeat for as many tiktok accounts as you'd like! The script reads this folder and outputs one CSV file for each HTML file. 
 
+### CSV
+the script outputs CSV files (CSV = comma seperate values). So it will look like this: 
+```
+4.1M,4099999.9999999995,thankfully my hair was down and no one noticed #whoops #bridesmaid ,https://www.tiktok.com/@lizhagearty/video/7180574936572906795
+5951,5951.0,@GRiZ 💥 #GranularVelocity #ravetok #edm  ,https://www.tiktok.com/@lizhagearty/video/7177718278503320878
+3425,3425.0,"feeling so happy and inspired, wanted to share these thoughts 💘 ",https://www.tiktok.com/@lizhagearty/video/7177171590692506926
+```
+To view as a spreadsheet on Google Sheets, open a new Sheet and click File --> Import. 
+Upload to CSV file you want to add, continue with the Import screen. Select the import location you want (Create new spreadsheet, Insert spreadsheet, Replace spreadsheet, etc.) and import data. 
+
 ### Note
  If you want to get all videos an account has ever posted, you need to scroll to the very bottom of the page before copying the HTML. 
  It is assumed that the HTML files are well-formed and you fully loaded the page before copying the HTML.
