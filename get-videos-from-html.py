@@ -2,6 +2,7 @@ import csv
 import os
 import re
 from bs4 import BeautifulSoup
+from decimal import Decimal
 
 folder_path = './HTML'
 file_list = os.listdir(folder_path)
@@ -46,7 +47,7 @@ for file in file_list:
             
             if match:
                 # Convert the numeric part to a float
-                value = float(match.group(1))
+                value = Decimal(match.group(1))
                 
                 # Multiply the value by 1000 if the suffix is "k"
                 if match.group(2) == "K":
