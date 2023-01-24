@@ -14,6 +14,21 @@ Each CSV file has 4 columns: `view text`, `view integer`, `caption`, `link`
 ```python get-videos-from-html.py```
 The script will output a CSV file for each of the HTML files.
 
+if you have 3 HTML files like: 
+```
+HTML/ 
+    lizhagearty.html
+    electric_daisy_carnival.html
+    projectglowfest.html
+```
+it will output 3 CSV files like:  
+```
+CSV/
+    lizhagearty.csv
+    electric_daisy_carnival.csv
+    projectglowfest.csv
+```
+
 ### HTML
 To get HTML for a tiktok account, on desktop search that tiktok account. 
 When you're on that page, ex. https://www.tiktok.com/@lizhagearty, right click and click `inspect` to see the HTML. Click the first line (looks like `<html> lang="en"...`) and copy (Command + C). In the HTML folder, make a new HTML file and paste the html you just copied. 
