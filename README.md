@@ -5,7 +5,7 @@ Each CSV file has 4 columns: `view text`, `view integer`, `caption`, `link`
 
 ### Prerequisites
 * Python 3.x
-* The HTML folder containing all the HTML files that you want to extract video URLs from.
+* The HTML folder containing all the HTML files that you want to get Tiktok view data for.
 
 ### Running the script
 * Add all HTML files into HTML folder (and make sure you fully load page, *scroll down* to bottom, before you copy HTML)
